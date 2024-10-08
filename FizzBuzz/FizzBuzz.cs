@@ -13,10 +13,14 @@ namespace FizzBuzz
             return num % 3 == 0;
         }
 
+        /// <summary>
+        /// Checks if a given number is divisble by 5
+        /// </summary>
+        /// <param name="num">integer to verify multiple of 5</param>
+        /// <returns>boolean value</returns>
         public bool IsDivisibleBy5(int num)
         {
-            // TODO implement a method that returns `true` if the num variable
-            // is divisible by 5
+            return num % 5 == 0;
         }
 
         public void IterFizzBuzz(int num)
