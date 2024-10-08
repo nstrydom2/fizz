@@ -26,6 +26,24 @@ namespace FizzBuzz
         public void IterFizzBuzz(int num)
         {
             // TODO implement a method that loops from 1 to the target num
+            for (int i = 1; i <= num; i++)
+            {
+                string procOutput = String.Empty;
+                if (!IsDivisibleBy3(i) && !IsDivisibleBy5(i))
+                {
+                    procOutput = i.ToString();
+                }
+
+                else
+                {
+                    if (IsDivisibleBy3(i))
+                        procOutput += "fizz";
+                    if (IsDivisibleBy5(i))
+                        procOutput += "buzz";
+                }
+
+                Console.WriteLine(procOutput);
+            }
         }
     }
 }
