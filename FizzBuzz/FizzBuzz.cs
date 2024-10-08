@@ -16,7 +16,7 @@ namespace FizzBuzz
         /// <summary>
         /// Checks if a given number is divisble by 5
         /// </summary>
-        /// <param name="num"></param>
+        /// <param name="num">integer to verify multiple of 5</param>
         /// <returns>boolean value</returns>
         public bool IsDivisibleBy5(int num)
         {
