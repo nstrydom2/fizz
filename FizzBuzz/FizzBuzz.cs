@@ -17,24 +17,11 @@ namespace FizzBuzz
         {
             // TODO implement a method that returns `true` if the num variable
             // is divisible by 5
-            return num % 5 == 0;
         }
 
         public void IterFizzBuzz(int num)
         {
-            for (int i = 0; i < num; i++)
-            {
-                if (IsDivisibleBy3(i) && IsDivisibleBy5(i))
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-
-                else if (IsDivisibleBy3(i)) { Console.WriteLine("Fizz"); }
-
-                else if (IsDivisibleBy5(i)) { Console.WriteLine("Buzz"); }
-
-                else { Console.WriteLine(i); }
-            }
+            // TODO implement a method that loops from 1 to the target num
         }
     }
 }
